@@ -68,7 +68,7 @@ export default function ViewTask({ params }) {
 				{/* Task description */}
 				<div className="mt-10">
 					<h1 className="text-2xl font-bold mb-2">Description</h1>
-					<li className="text-lg">{task.desc}</li>
+					<li className="text-lg break-all">{task.desc}</li>
 				</div>
 			</ul>
 		</main>
